@@ -1,5 +1,8 @@
 # Django Framework
 Django==4.2.1
+gunicorn
+psycopg2-binary
+python-dateutil
 
 # Database (SQLite comes with Python, but for other databases)
 # For PostgreSQL: psycopg2-binary==2.9.6
@@ -24,6 +27,7 @@ whitenoise==6.5.0
 
 # For development
 python-dotenv==1.0.0
+
 
 #pip install -r requirements.txt
 # python manage.py migrate
