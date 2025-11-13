@@ -3,11 +3,10 @@ kind: Service
 metadata:
   name: sms-service
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: sms
   ports:
-    - port: 8000
-      targetPort: 8000
-      nodePort: 30080
+    - port: 80         # public port (user-facing)
+      targetPort: 8000 # Django internal port
 
