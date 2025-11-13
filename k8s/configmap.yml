@@ -4,5 +4,5 @@ metadata:
   name: sms-config
 data:
   DEBUG: "True"
-  ALLOWED_HOSTS: "192.168.97.139,65.2.179.176,0.0.0.0,127.0.0.1,localhost,13.232.2.80"
+  ALLOWED_HOSTS: "192.168.97.139,3.109.200.6,0.0.0.0,127.0.0.1,localhost,13.232.2.80"
 
